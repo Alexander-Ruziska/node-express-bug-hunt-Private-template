@@ -18,6 +18,35 @@ npm start
 
 TODO: Add the error here followed by the line of code you fixed.
 
+1. // ??? Look here for files
+app.use(express.static('server/public'));
+
+2. // Use 5001 for localhost development
+const port = process.env.PORT || 5001;
+
+3. // ??? List of quotes
+let quoteList = [];
+
+4. // ??? GET request returns information
+router.get('/', (req, res) => {
+
+5. // ??? POST request save user input
+quoteList.push(quoteToAdd);
+
+6. // PUT request update information
+module.exports = router;
+
+7.  url: '/quotes}' to  url: '/quotes'
+
+8. // ???
+ getQuotes();
+ 
+9. <!-- ??? Our JavaScript file -->
+axios and script swapped places.
+10. 
+
+
+
 ### Bug 0
 
 `ReferenceError: app is not defined`
